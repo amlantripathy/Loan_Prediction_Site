@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Loan Prediction</title>
+		
+        
+	</head>
+
+	<body>
+
+		<h1>Loan Prediction</h1>
+		<h2>Check for Loan Approval</h2>
+		<form action="/" method=post>
+        	<label for="Name">Name:</label>
+		<input type="text" name="Name" >
+		<br />
+		
+		<label for="Gender">Gender:</label>
+        	<input list="genders" name="Gender" id="Gender">
+  		<datalist id="genders">
+    		<option value="Male">
+		<option value="Female">
+		</datalist>
+		<br />
+
+		<label for="Marital_Status">Marital Status:</label>
+        	<input list="Married" name="Marital_Status" id="Marital_Status">
+  		<datalist id="Married">
+    		<option value="Married">
+		<option value="Not Married">
+		</datalist>
+		<br />
+
+		<label for="No_of_Dependents">No. of Dependents:</label>
+        	<input list="Dependents" name="No_of_Dependents" id="No_of_Dependents">
+  		<datalist id="Dependents">
+    		<option value="0">
+		<option value="1">
+		<option value="2">
+		<option value="3">
+		<option value="4">
+		<option value="5">
+		<option value="6">
+		<option value="7">
+`		<option value="8">
+		<option value="9">
+		<option value="10">
+		</datalist>
+		<br />
+
+		<label for="Education">Education:</label>
+        	<input list="Education Status" name="Education" id="Education">
+  		<datalist id="Education Status">
+    		<option value="Graduate">
+		<option value="Not Graduate">
+		</datalist>
+		<br />
+
+		<label for="Self_Employed">Self Employed:</label>
+        	<input list="Employed" name="Self_Employed" id="Self_Employed">
+  		<datalist id="Employed">
+    		<option value="Yes">
+		<option value="No">
+		</datalist>
+		<br />
+
+		<label for="Income">Income:</label>		
+		<input type="number" name="Income" >
+		<br />
+
+		<label for="Coapplicant_Income">Coapplicant Income:</label>
+		<input type="number" name="Coapplicant_Income" >
+		<br />
+
+		<label for="Loan_Amount">Loan Amount:</label>
+		<input type="number" name="Loan_Amount" >
+		<br />
+
+		<label for="Loan _Amount_Term">Loan Amount Term:</label>
+		<input type="number" name ="Loan_Amount_Term" >
+		<br />
+
+		<label for="Credit_History">Credit History:</label>
+        	<input list="Cred Hist" name="Credit_History" id="Credit_History">
+  		<datalist id="Cred Hist">
+    		<option value="0">
+		<option value="1">
+		</datalist>
+		<br />
+
+		<label for="Property_Location">Property Location:</label>
+        	<input list="Location" name="Property_Location" id="Property_Location">
+  		<datalist id="Location">
+    		<option value="Rural">
+		<option value="Semiurban">
+		<option value="Urban">
+		</datalist>
+		<br />
+
+		<button type="submit" name="Predict">Predict</button>
+
+
+            
+        </form>
+		
+	</body>
+</html>
